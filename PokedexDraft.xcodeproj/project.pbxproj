@@ -14,11 +14,11 @@
 		F7615707240F2EB6004E75C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7615705240F2EB6004E75C4 /* LaunchScreen.storyboard */; };
 		F7615712240F2EB7004E75C4 /* PokedexDraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7615711240F2EB7004E75C4 /* PokedexDraftTests.swift */; };
 		F761571D240F2EB7004E75C4 /* PokedexDraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761571C240F2EB7004E75C4 /* PokedexDraftUITests.swift */; };
-		F7615736240F2EF5004E75C4 /* PokedexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7615735240F2EF5004E75C4 /* PokedexController.swift */; };
 		F7615744240F30FB004E75C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7615743240F30FB004E75C4 /* Extensions.swift */; };
 		F761574824133842004E75C4 /* PokedexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761574724133842004E75C4 /* PokedexCell.swift */; };
 		F761574A2414ACEA004E75C4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76157492414ACEA004E75C4 /* Pokemon.swift */; };
 		F761574C2414B320004E75C4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761574B2414B320004E75C4 /* Service.swift */; };
+		F761574E241859CD004E75C4 /* PokedexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761574D241859CD004E75C4 /* PokedexController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		F7615718240F2EB7004E75C4 /* PokedexDraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexDraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F761571C240F2EB7004E75C4 /* PokedexDraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexDraftUITests.swift; sourceTree = "<group>"; };
 		F761571E240F2EB7004E75C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7615735240F2EF5004E75C4 /* PokedexController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokedexController.swift; path = ../../../Pokedex/Pokedex/Controller/PokedexController.swift; sourceTree = "<group>"; };
 		F7615743240F30FB004E75C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F761574724133842004E75C4 /* PokedexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexCell.swift; sourceTree = "<group>"; };
 		F76157492414ACEA004E75C4 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		F761574B2414B320004E75C4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F761574D241859CD004E75C4 /* PokedexController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,7 @@
 		F7615734240F2EEA004E75C4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F7615735240F2EF5004E75C4 /* PokedexController.swift */,
+				F761574D241859CD004E75C4 /* PokedexController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,8 +323,8 @@
 				F761574C2414B320004E75C4 /* Service.swift in Sources */,
 				F76156FB240F2EB4004E75C4 /* AppDelegate.swift in Sources */,
 				F76156FD240F2EB4004E75C4 /* SceneDelegate.swift in Sources */,
-				F7615736240F2EF5004E75C4 /* PokedexController.swift in Sources */,
 				F761574824133842004E75C4 /* PokedexCell.swift in Sources */,
+				F761574E241859CD004E75C4 /* PokedexController.swift in Sources */,
 				F761574A2414ACEA004E75C4 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
